@@ -1,0 +1,159 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem rgb(255, 255, 255), 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+  background-color: rgb(245, 201, 144);
+}
+.imgs img
+{
+  width: 25%;
+  height: auto;
+  float: left;
+  margin: 2rem;
+
+}
+pre{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+h3
+{
+  text-align: center;
+  text-decoration: underline;
+
+}
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgDeIndex
+{
+  width: 35%;
+  height: auto;
+}
+.tituloIndex h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+.victoria{
+  font-size: 70px;
+  text-align: center;
+  color:rgb(243, 156, 255);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00ffcc, 0 0 70px #00ffcc, 0 0 80px #00ffcc, 0 0 100px #00ffcc, 0 0 150px #00ffcc, 0 0 160px #00ffcc, 0 0 170px #00ffcc;
+}
+.felicidades{
+  font-size: 35px;
+  text-align: center;
+  color:rgb(243, 156, 255);
+  animation: destello 1.5s infinite;
+}
+
+@keyframes destello {
+  0% { opacity: 1; } 
+  50% { opacity: 0; } 
+  100% { opacity: 1; } 
+}
+  
+.nav-item
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 23%;
+  height: auto;
+  float: left;
+  margin: 1rem;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  border: solid rgb(146, 162, 252);
+  border-radius: 20px
+}
+.imgsTutorial div{
+  width: 20%;
+  height: auto;
+  float: left;
+  margin: 2rem;
+  padding: 0%;
+  text-align: center;
+  border: solid  #258cfb;
+  border-radius: 20px
+  
+}
+div img{
+  width: 60%;
+  height: auto;
+}
+.imgsTutorial p{
+  font-size: 20px;
+  color: #258cfb;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nosotros img{
+  width: 50%;
+  height: 70%;
+}
+.nosotros div
+{
+  width: 23%;
+  height: auto;
+  float: left;
+  margin: 4rem;
+  padding: 3%;
+  text-align: center;
+  border: solid  #258cfb;
+  border-radius: 20px
+}
+.sobreNosotrosTitulo h1{
+  color: rgb(253, 120, 80);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.tutorialTitulo h1{
+  color: rgb(253, 120, 80);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.habitacion1Titulo h1{
+  color: #ec5b07;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.habitacion2Titulo h1{
+  color: #ec5b07;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.habitacion3Titulo h1{
+  color: #ec5b07;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.habitacion4Titulo h1{
+  color: #ec5b07;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

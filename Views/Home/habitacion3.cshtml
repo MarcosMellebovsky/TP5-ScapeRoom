@@ -1,0 +1,13 @@
+<div class = "habitacion3Titulo">
+    <h1>Habitacion 3:<h1>
+</div>
+<p>Llegaste a la habitacion 3, felicidades!</p>
+<img src="/img/sala3.png">
+<form action='@Url.Action("Habitacion", "Home")' method="post">
+    <input type="hidden" name="sala" value="3"/>
+    <input type="text" name="clave"/>
+    <input type="submit" value="Enviar" />
+</form>
+<button onclick="alert('Los muffins verdes valen 12!')"> Pista 1.</button>
+<button onclick="alert('Los muffins amarrillos valen 7!')"> Pista extra.</button>
+<p>@ViewBag.Error</p>

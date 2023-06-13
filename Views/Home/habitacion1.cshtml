@@ -1,0 +1,13 @@
+﻿<div class = "habitacion1Titulo">
+    <h1>Habitacion 1:<h1>
+</div>
+<p>Ahora sí, empecemos.</p>
+<img src="/img/Acertijo-sala1.jpg">
+<form action='@Url.Action("Habitacion", "Home")' method="post">
+    <input type="hidden" name="sala" value="1"/>
+    <input type="text" name="clave"/>
+    <input type="submit" value="Enviar" />
+</form>
+<button onclick="alert('Recomendacion: fijarse bien todas las columnas!')"> Pista 1.</button>
+<button onclick="alert('Todas las columnas dan el mismo numero, averigualo')"> Pista extra.</button>
+@ViewBag.Error

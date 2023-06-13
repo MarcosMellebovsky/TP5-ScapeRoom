@@ -1,0 +1,13 @@
+<div class = "habitacion4Titulo">
+    <h1>Habitacion 4:<h1>
+</div>
+<p>Llegaste a la habitacion 4, La fase Final!</p>
+<iframe style="max-width:100%" src="https://wordwall.net/es/embed/5dd4d731f5a14d1bb0a7bb8e3ab36f65?themeId=27&templateId=5&fontStackId=0" width="500" height="380" frameborder="0" allowfullscreen></iframe>
+<form action='@Url.Action("Habitacion", "Home")' method="post">
+    <input type="hidden" name="sala" value="4"/>
+    <input type="text" name="clave"/>
+    <input type="submit" value="Enviar" />
+</form>
+<button onclick="alert('Recomendacion: Anotar las respuestas!')"> Pista 1.</button>
+<button onclick="alert('Suma los numeros de las respuestas!')"> Pista extra.</button>
+<p>@ViewBag.Error</p>

@@ -1,0 +1,13 @@
+<div class = "habitacion2Titulo">
+    <h1>Habitacion 2:<h1>
+</div>
+<p>Felicidades, llegaste a la sala número 2!</p>
+<p>Número de 3 dígitos. El dígito que está en el medio es 4 veces mayor que el tercer y último dígito. Además, el primero es 3 unidades más pequeño que el segundo. ¿Qué número es?</p>
+<form action='@Url.Action("Habitacion", "Home")' method="post">
+    <input type="hidden" name="sala" value="2" />
+    <input type="text" name="clave" />
+    <input type="submit" value="Enviar" />
+</form>
+<button onclick="alert('No es un numero mayor a 500!')"> Pista 1.</button>
+<button onclick="alert('El ultimo numero es 1')"> Pista extra.</button>
+<p>@ViewBag.Error</p>
